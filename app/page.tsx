@@ -31,7 +31,7 @@ export default function Home() {
             </span>
                 </h2>
                 <p className={`m-0 max-w-[30ch] text-md opacity-75`}>
-                    check out my public repositories.
+                    check out my public repositories
                 </p>
             </a>
 
@@ -65,7 +65,7 @@ export default function Home() {
             </span>
                 </h2>
                 <p className={`m-0 max-w-[30ch] text-md opacity-75`}>
-                    connect with me professionally.
+                    connect with me professionally
                 </p>
             </a>
 
@@ -82,7 +82,7 @@ export default function Home() {
             </span>
                 </h2>
                 <p className={`m-0 max-w-[30ch] text-md opacity-75`}>
-                    i'm trying to figure out how best to arm kids with anti-propaganda tools.
+                    i&apos;m trying to figure out how best to arm kids with anti-propaganda tools
                 </p>
             </a>
         </div>
