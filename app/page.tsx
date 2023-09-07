@@ -3,9 +3,9 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-        <div className="font-thin text-3xl opacity-100 bg-black w-full text-left flex flex-row justify-between pl-4 pr-4">
+        <div className="font-thin text-2xl opacity-100 bg-black w-full text-left flex flex-row justify-between pl-4 pr-4">
             <span className="text-white">
-                &lt;hearing crickets in space&gt;
+                &lt; crickets &gt;
             </span>
         </div>
       <div className="w-full -z-10 opacity-25">
@@ -24,13 +24,13 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <h2 className={`mb-3 text-3xl font-semibold`}>
+                <h2 className={`mb-3 text-2xl font-semibold`}>
                     github{' '}
                     <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
                 </h2>
-                <p className={`m-0 max-w-[30ch] text-md opacity-75`}>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-75`}>
                     check out my public repositories
                 </p>
             </a>
@@ -41,13 +41,13 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <h2 className={`mb-3 text-3xl font-semibold`}>
+                <h2 className={`mb-3 text-2xl font-semibold`}>
                     blog{' '}
                     <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
                 </h2>
-                <p className={`m-0 max-w-[30ch] text-md opacity-75`}>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-75`}>
                     follow my (infrequent) online musings!
                 </p>
             </a>
@@ -58,13 +58,13 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <h2 className={`mb-3 text-3xl font-semibold`}>
+                <h2 className={`mb-3 text-2xl font-semibold`}>
                     linkedIn{' '}
                     <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
                 </h2>
-                <p className={`m-0 max-w-[30ch] text-md opacity-75`}>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-75`}>
                     connect with me professionally
                 </p>
             </a>
@@ -75,14 +75,14 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <h2 className={`mb-3 text-3xl font-semibold`}>
+                <h2 className={`mb-3 text-2xl font-semibold`}>
                     strawman{' '}
                     <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
                 </h2>
-                <p className={`m-0 max-w-[30ch] text-md opacity-75`}>
-                    i&apos;m trying to figure out how best to arm kids with anti-propaganda tools
+                <p className={`m-0 max-w-[30ch] text-sm opacity-75`}>
+                    100 feet in the marathon to make the Next Generation propaganda-resilient
                 </p>
             </a>
         </div>
