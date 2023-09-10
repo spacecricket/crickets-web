@@ -8,23 +8,32 @@ export default function Home() {
                 &lt; crickets &gt;
             </span>
         </div>
-      <div className="w-full -z-10 opacity-25">
-        <Image
-          src="/crickets.jpg"
-          alt="Crickets in space"
-          fill
-          priority
-        />
+      <div className="w-full -z-10 opacity-50">
+          <Image
+              src="/24.jpg"
+              alt="Space Tennis"
+              fill
+              priority
+          />
+        {/*<Image*/}
+        {/*  src="/crickets.jpg"*/}
+        {/*  alt="Crickets in space"*/}
+        {/*  fill*/}
+        {/*  priority*/}
+        {/*/>*/}
       </div>
 
         <div className="">
-            <Image
-                src="/spacecricket.png"
-                alt="Space Cricket"
-                height={100}
-                width={100}
-                priority
-            />
+            <h1 className={`mb-3 text-3xl font-bold opacity-50`}>
+                jatin sonavane
+            </h1>
+                {/*<Image*/}
+            {/*    src="/j.jpg"*/}
+            {/*    alt="Space Cricket"*/}
+            {/*    height={50}*/}
+            {/*    width={50}*/}
+            {/*    priority*/}
+            {/*/>*/}
         </div>
         <div className="mb-32 grid lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
 
